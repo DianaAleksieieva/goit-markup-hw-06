@@ -254,8 +254,9 @@ header {
   height: 30px;
 }
 .modal-input-list {
-  display: inline-block;
-  margin-bottom: 10px;
+  display: flex;
+
+  flex-direction: column;
 }
 .modal-text {
   font-size: 12px;
@@ -275,6 +276,7 @@ header {
 .modal-input-group {
   display: block;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .modal-input-item {
@@ -313,7 +315,6 @@ header {
 .modal-comments:hover,
 .modal-comments:focus {
   border: 1px solid var(--brand-color);
-  color: var(--brand-color);
 }
 .modal-input-icon {
   position: absolute;
